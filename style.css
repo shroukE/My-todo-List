@@ -1,0 +1,83 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg,#dbeafe, #eff6ff);
+}
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    background:white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+.header {
+    background: linear-gradient(135deg,#60a5fa, #eff6ff);
+    color: rgb(43, 31, 132);
+    padding: 25px;
+    text-align: center;
+    border-radius: 100px;
+    margin-bottom: 25px;
+     box-shadow: 0px 5px 0 #4b44b3;
+     
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+}
+
+button {
+    padding: 12px 25px;
+    background: rgb(43, 31, 132);;
+    color: rgb(239, 243, 245);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 5px 0 #4b44b3;
+    transition: all 0.2s ease;
+}
+button:hover {
+    background: rgb(43, 31, 132);
+    box-shadow: 0px 5px 0 #4b44b3;
+    transform: translateY(-2px);
+}
+button:active {
+    background: rgb(43, 31, 132);
+    box-shadow: 0px 2px 0 #4b44b3;
+    transform: translateY(2px);
+}
+#clearBtn {
+    position: center;
+    background: #923320;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 2%;
+    margin-bottom: 1cap;
+   
+}
+
+li {
+    checkbox: true;
+    list-style: none;
+    padding: 10px;
+    margin-top: 10px;
+    background:linear-gradient(135deg,#60a5fa, #eff6ff);
+}
+.footer {
+    font-size: 14px;
+    color:rgb(15, 5, 92);
+    background: linear-gradient(135deg,#dbeafe, #eff6ff);
+}
+h1{
+    font-family:cursive;
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    
+}
